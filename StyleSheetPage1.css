@@ -1,0 +1,341 @@
+
+<style>
+
+#nav {
+    line-height:30px;
+    color: white;
+    height:1000px;
+    width:1000px;
+    float:left;
+    padding :0px;
+    background: linear-gradient(teal,turquoise);
+    overflow: hidden;
+}
+#section {
+    width:2000px;
+    height:1000px;
+    float:left;
+    padding:10px;
+    background: linear-gradient(teal,turquoise);
+    background-repeat: repeat;
+    left:300px;
+    right:200px;
+    
+    overflow : hidden;
+
+
+}
+
+#title{
+	
+   
+	left:-100px;
+	top:50px;
+	
+}
+
+
+h1{
+	width: 190px;
+    height: 45px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 30s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;    
+
+}
+
+@-webkit-keyframes example {
+    0%   {background-color:lightGreen; left:0px; top:0px;}
+    25%  {background-color:forestGreen; left:200px; top:0px;}
+    50%  {background-color:darkSeaGreen; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:greenMoth; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:lightGreen; left:0px; top:0px;}
+    25%  {background-color:foresrGreen; left:200px; top:0px;}
+    50%  {background-color:darkSeaGreen; left:200px; top:200px;}
+    75%  {background-color:green;left:0px; top:200px;}
+    100% {background-color:greenMoth; left:0px; top:0px;}
+}
+#links
+{
+    position : relative;
+    top : 250px;
+    left :100px;
+   
+}
+
+#link2
+{
+	position:absolute;
+    top : 350px;
+    left :110px;
+}
+
+#link3
+{
+	position:absolute;
+	top:380px;
+	left:110px;
+}
+
+#link4
+{
+	position:absolute;
+	top:410px;
+	left:110px;
+}
+
+a:link {
+    color:black;
+}
+
+/* visited link */
+a:visited {
+    color: lightGreen;
+}
+
+/* mouse over link */
+a:hover {
+    color: forestGreen;
+}
+
+/* selected link */
+a:active {
+    color: darkSeaGreen;
+}
+#section2
+{
+	color : black;
+	position: relative;
+	left : 900px;
+	top:2px;
+}
+
+#section3
+{
+	color : black;
+	position: relative;
+	left : 900px;
+	top:2px;
+
+
+}
+#section4
+{
+	color : black;
+	position: relative;
+	left : 900px;
+	top:2px;
+
+
+}
+
+#myName
+{
+	color : black;
+	position: relative;
+	left : 650px;
+	top:-250px;
+
+
+}
+
+#myTitle
+{
+	color : black;
+	position: relative;
+	left : 650px;
+	top:-300px;
+
+}
+
+#myInfo
+{
+	color : black;
+	position: relative;
+	left : 390px;
+	top:200px;
+	font-family:Arial;
+	font-size:150%;
+	font-weight: bold;
+	text-shadow: 1px 1px;
+
+}
+#myInfoDetail
+{
+	color : black;
+	position: relative;
+	left : 390px;
+	top:200px;
+    font-family:Arial;
+    font-size:100%;
+    font-weight: bold;
+
+}
+
+#langChart
+{
+	
+	position: relative;
+	left : 200px;
+	
+    top:80px;
+
+}
+
+#operatingSysChart
+{
+	position: relative;
+	left : 550px;
+	top:-190px;
+}
+
+#opSysChart
+{
+	position:relative;
+	left : 200px;
+	top : 450px;
+}
+	
+
+
+#DbImg
+{
+	position:relative;
+	left : 800px;
+	top : -310px;
+}
+
+#picLangChart
+{
+    width:5px; 
+    height:5px; 
+    webkit-border-radius:200px;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    
+    text-align:center;
+    padding:5px; 
+}
+
+#rcorners2 {
+    border-radius: 0px;
+    border: 10px solid black;
+    
+    width: 200px;
+    height: 250px; 
+}
+.img {
+    height:250px;
+    width:250px;
+    position:absolute;
+    top : 100px;
+    left : 400px;
+}
+
+.logos
+{
+	width:30px;
+	height:30px;
+	float : left;
+	margin : 2px;
+	padding-right :2px;
+	top : 20px;
+}
+
+#bkground
+{
+	width:1270px;
+    height:1400px;
+    background: linear-gradient(teal,turquoise);
+    background:linear-gradient();
+    overflow-x:hidden;
+    overflow:hidden;
+ }
+
+#bkgroundColor
+{
+	width:1270px;
+    height:1000px;
+    background: linear-gradient(teal,turquoise);
+    overflow-x:hidden;
+    overflow:hidden;
+}
+
+#contact-form
+{
+	width:500px;
+	height:400px;
+	text-align: center;
+	margin-left: 350px;
+}
+
+#table1
+{
+	 top:1000px;
+	 padding: 15px;
+     text-align: left;
+     border: 5px solid black;
+    
+}
+
+#th1{
+    height: 50px;
+    padding-left:15px;
+}
+
+td{
+     font-style: bold;
+     padding: 15px;
+    
+  }
+
+tr:hover{background-color:#2E8B57}
+
+
+
+#pageName
+{
+	text-align: left;
+	font-family: Arial;
+	font-size: 200%;
+	font-style: bold;
+	left:20px;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: white;
+    float: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ul.pagination li a.active {
+    background-color: #2E8B57;
+    color: white;
+    border-radius: 2px;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #fff;}
+</style>
